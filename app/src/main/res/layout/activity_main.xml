@@ -9,13 +9,19 @@
     tools:context=".MainActivity">
     
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello world"
-        android:textColor="@color/teal_700"
-        android:textSize="30dp"
+        android:text="Título"
+        android:textSize="50dp"
         android:textAlignment="center"
     />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subtitulo"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        />
     <LinearLayout
 
         android:layout_width="match_parent"
@@ -26,26 +32,61 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello world"
-            android:textColor="@color/black"
-            android:textSize="30dp"
+            android:layout_marginHorizontal="10dp"
+            android:text="opción 1"
+            android:textSize="20dp"
             android:textAlignment="center"
             />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello world"
+            android:layout_marginHorizontal="10dp"
+            android:text="opción 2"
             android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textSize="30dp" />
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:text="opción 3"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:text="texto 1"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:text="texto 2"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:text="texto 3"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
     </LinearLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello world"
-        android:textAlignment="center"
-        android:textColor="@color/teal_700"
-        android:textSize="30dp" />
 </LinearLayout>
